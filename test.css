@@ -12,12 +12,20 @@ body {
 	max-width: 300px;
 	max-height: 300px;
 }
-img {
+.darkside {
 	position: relative;
 	left: 3%;
 	top: -10px;
 }
+.jedi {
+	position: relative;
+	left: 600px;
+	top: -500px;
+    max-width: 30px; 
+    max-height: 30px;
 
+
+}
 
 .container {
 	width: 50%;
@@ -25,4 +33,10 @@ img {
 	clear: both;
 	text-align: center;
 
+}
+#click {
+	position: absolute;
+	bottom:-300px;
+	left: 700px;
+	
 }
