@@ -3,6 +3,8 @@
 	<head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="test.css">
+	
+	
 		<title>Test Day</title>
 	</head>
 		<div class="jumbotron">
@@ -12,7 +14,7 @@
 			</div>
 		</div>
 			<div class="container">
-				<h2>But the Force is So Much More Badass</h2>
+				<h2>The Good Side of the Force</h2>
 					<p>I really just hope you can read all this text and now I will quote Dylan Thomas: <br>
 							Do not go gentle into that good night,<br>
 							Old age should burn and rave at close of day;<br>
@@ -40,19 +42,27 @@
 							Rage, rage against the dying of the light.<br>
 					</p>
 			</div>
-	<div class="jedi">
-		<img src="http://images.wikia.com/pt.starwars/images/7/73/Jedi_symbol_bg.jpg">
+	<div class="col-m-6">
+		<img src="http://images.wikia.com/pt.starwars/images/7/73/Jedi_symbol_bg.jpg" class="img-rounded">
 	</div>
-		<div>
-			<button id="click" type="button" onclick="join3()">Click me</button>
+		<div class="row">
+			<button id="click" type="button" onclick="join.darkSide();" class="btn btn-danger">Join Me I am Your Father</button>
+			<button id="click" type="button" onclick="force.lightSide();" class="btn btn-info">NEVER!!!!</button>
 		</div>
-			
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Good Side Hits</h1>
+							<h3 id="good"></h3>
+						<h1>Dark Side Hits</h1>
+							<h3 id="bad"></h3>
+					</div>
+				</div>
 	<body>
 
 
 
-	<script src='test.js'></script>
 	<script src='app.js'></script>
+	<script src='test.js'></script>
 	<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</body>
