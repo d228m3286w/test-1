@@ -19,10 +19,11 @@ body {
 }
 .jedi {
 	position: relative;
-	left: 600px;
+	left: 60%;
 	top: -500px;
-    max-width: 30px; 
+    max-width: 10px; 
     max-height: 30px;
+    
 
 
 }
@@ -35,8 +36,7 @@ body {
 
 }
 #click {
-	position: absolute;
-	bottom:-300px;
-	left: 700px;
+	position: relative;
+	top: 400px;
 	
 }
