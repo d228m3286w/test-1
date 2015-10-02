@@ -1,0 +1,28 @@
+body {
+	background: linear-gradient(green, lightblue);
+}
+.jumbotron {
+	background: linear-gradient(red, black);
+	text-align: center;
+
+
+}
+
+.jumbotron img {
+	max-width: 300px;
+	max-height: 300px;
+}
+img {
+	position: relative;
+	left: 3%;
+	top: -10px;
+}
+
+
+.container {
+	width: 50%;
+	float: left;
+	clear: both;
+	text-align: center;
+
+}
